@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE2B40931EFE6DB3007B615E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B40921EFE6DB3007B615E /* AppDelegate.swift */; };
+		EE2B40951EFE6DB3007B615E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B40941EFE6DB3007B615E /* ViewController.swift */; };
+		EE2B40981EFE6DB3007B615E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2B40961EFE6DB3007B615E /* Main.storyboard */; };
+		EE2B409A1EFE6DB3007B615E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2B40991EFE6DB3007B615E /* Assets.xcassets */; };
+		EE2B409D1EFE6DB3007B615E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2B409B1EFE6DB3007B615E /* LaunchScreen.storyboard */; };
+		EE2B40A81EFE6DB3007B615E /* Ensemble_CarpoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B40A71EFE6DB3007B615E /* Ensemble_CarpoolTests.swift */; };
+		EE2B40B31EFE6DB3007B615E /* Ensemble_CarpoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B40B21EFE6DB3007B615E /* Ensemble_CarpoolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE2B40A41EFE6DB3007B615E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2B40871EFE6DB3007B615E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2B408E1EFE6DB3007B615E;
+			remoteInfo = "Ensemble Carpool";
+		};
+		EE2B40AF1EFE6DB3007B615E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2B40871EFE6DB3007B615E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2B408E1EFE6DB3007B615E;
+			remoteInfo = "Ensemble Carpool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE2B408F1EFE6DB3007B615E /* Ensemble Carpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ensemble Carpool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2B40921EFE6DB3007B615E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE2B40941EFE6DB3007B615E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE2B40971EFE6DB3007B615E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE2B40991EFE6DB3007B615E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE2B409C1EFE6DB3007B615E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE2B409E1EFE6DB3007B615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2B40A31EFE6DB3007B615E /* Ensemble CarpoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ensemble CarpoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2B40A71EFE6DB3007B615E /* Ensemble_CarpoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ensemble_CarpoolTests.swift; sourceTree = "<group>"; };
+		EE2B40A91EFE6DB3007B615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2B40AE1EFE6DB3007B615E /* Ensemble CarpoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ensemble CarpoolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2B40B21EFE6DB3007B615E /* Ensemble_CarpoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ensemble_CarpoolUITests.swift; sourceTree = "<group>"; };
+		EE2B40B41EFE6DB3007B615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE2B408C1EFE6DB3007B615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2B40A01EFE6DB3007B615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2B40AB1EFE6DB3007B615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE2B40861EFE6DB3007B615E = {
+			isa = PBXGroup;
+			children = (
+				EE2B40911EFE6DB3007B615E /* Ensemble Carpool */,
+				EE2B40A61EFE6DB3007B615E /* Ensemble CarpoolTests */,
+				EE2B40B11EFE6DB3007B615E /* Ensemble CarpoolUITests */,
+				EE2B40901EFE6DB3007B615E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE2B40901EFE6DB3007B615E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE2B408F1EFE6DB3007B615E /* Ensemble Carpool.app */,
+				EE2B40A31EFE6DB3007B615E /* Ensemble CarpoolTests.xctest */,
+				EE2B40AE1EFE6DB3007B615E /* Ensemble CarpoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE2B40911EFE6DB3007B615E /* Ensemble Carpool */ = {
+			isa = PBXGroup;
+			children = (
+				EE2B40921EFE6DB3007B615E /* AppDelegate.swift */,
+				EE2B40941EFE6DB3007B615E /* ViewController.swift */,
+				EE2B40961EFE6DB3007B615E /* Main.storyboard */,
+				EE2B40991EFE6DB3007B615E /* Assets.xcassets */,
+				EE2B409B1EFE6DB3007B615E /* LaunchScreen.storyboard */,
+				EE2B409E1EFE6DB3007B615E /* Info.plist */,
+			);
+			path = "Ensemble Carpool";
+			sourceTree = "<group>";
+		};
+		EE2B40A61EFE6DB3007B615E /* Ensemble CarpoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2B40A71EFE6DB3007B615E /* Ensemble_CarpoolTests.swift */,
+				EE2B40A91EFE6DB3007B615E /* Info.plist */,
+			);
+			path = "Ensemble CarpoolTests";
+			sourceTree = "<group>";
+		};
+		EE2B40B11EFE6DB3007B615E /* Ensemble CarpoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2B40B21EFE6DB3007B615E /* Ensemble_CarpoolUITests.swift */,
+				EE2B40B41EFE6DB3007B615E /* Info.plist */,
+			);
+			path = "Ensemble CarpoolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE2B408E1EFE6DB3007B615E /* Ensemble Carpool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2B40B71EFE6DB3007B615E /* Build configuration list for PBXNativeTarget "Ensemble Carpool" */;
+			buildPhases = (
+				EE2B408B1EFE6DB3007B615E /* Sources */,
+				EE2B408C1EFE6DB3007B615E /* Frameworks */,
+				EE2B408D1EFE6DB3007B615E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ensemble Carpool";
+			productName = "Ensemble Carpool";
+			productReference = EE2B408F1EFE6DB3007B615E /* Ensemble Carpool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE2B40A21EFE6DB3007B615E /* Ensemble CarpoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2B40BA1EFE6DB3007B615E /* Build configuration list for PBXNativeTarget "Ensemble CarpoolTests" */;
+			buildPhases = (
+				EE2B409F1EFE6DB3007B615E /* Sources */,
+				EE2B40A01EFE6DB3007B615E /* Frameworks */,
+				EE2B40A11EFE6DB3007B615E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2B40A51EFE6DB3007B615E /* PBXTargetDependency */,
+			);
+			name = "Ensemble CarpoolTests";
+			productName = "Ensemble CarpoolTests";
+			productReference = EE2B40A31EFE6DB3007B615E /* Ensemble CarpoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE2B40AD1EFE6DB3007B615E /* Ensemble CarpoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2B40BD1EFE6DB3007B615E /* Build configuration list for PBXNativeTarget "Ensemble CarpoolUITests" */;
+			buildPhases = (
+				EE2B40AA1EFE6DB3007B615E /* Sources */,
+				EE2B40AB1EFE6DB3007B615E /* Frameworks */,
+				EE2B40AC1EFE6DB3007B615E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2B40B01EFE6DB3007B615E /* PBXTargetDependency */,
+			);
+			name = "Ensemble CarpoolUITests";
+			productName = "Ensemble CarpoolUITests";
+			productReference = EE2B40AE1EFE6DB3007B615E /* Ensemble CarpoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE2B40871EFE6DB3007B615E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ansh Godha";
+				TargetAttributes = {
+					EE2B408E1EFE6DB3007B615E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EE2B40A21EFE6DB3007B615E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE2B408E1EFE6DB3007B615E;
+					};
+					EE2B40AD1EFE6DB3007B615E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE2B408E1EFE6DB3007B615E;
+					};
+				};
+			};
+			buildConfigurationList = EE2B408A1EFE6DB3007B615E /* Build configuration list for PBXProject "Ensemble Carpool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE2B40861EFE6DB3007B615E;
+			productRefGroup = EE2B40901EFE6DB3007B615E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE2B408E1EFE6DB3007B615E /* Ensemble Carpool */,
+				EE2B40A21EFE6DB3007B615E /* Ensemble CarpoolTests */,
+				EE2B40AD1EFE6DB3007B615E /* Ensemble CarpoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE2B408D1EFE6DB3007B615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2B409D1EFE6DB3007B615E /* LaunchScreen.storyboard in Resources */,
+				EE2B409A1EFE6DB3007B615E /* Assets.xcassets in Resources */,
+				EE2B40981EFE6DB3007B615E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2B40A11EFE6DB3007B615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2B40AC1EFE6DB3007B615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE2B408B1EFE6DB3007B615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2B40951EFE6DB3007B615E /* ViewController.swift in Sources */,
+				EE2B40931EFE6DB3007B615E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2B409F1EFE6DB3007B615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2B40A81EFE6DB3007B615E /* Ensemble_CarpoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2B40AA1EFE6DB3007B615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2B40B31EFE6DB3007B615E /* Ensemble_CarpoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE2B40A51EFE6DB3007B615E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2B408E1EFE6DB3007B615E /* Ensemble Carpool */;
+			targetProxy = EE2B40A41EFE6DB3007B615E /* PBXContainerItemProxy */;
+		};
+		EE2B40B01EFE6DB3007B615E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2B408E1EFE6DB3007B615E /* Ensemble Carpool */;
+			targetProxy = EE2B40AF1EFE6DB3007B615E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE2B40961EFE6DB3007B615E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2B40971EFE6DB3007B615E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE2B409B1EFE6DB3007B615E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2B409C1EFE6DB3007B615E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE2B40B51EFE6DB3007B615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE2B40B61EFE6DB3007B615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE2B40B81EFE6DB3007B615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ensemble Carpool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.godha.Ensemble-Carpool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE2B40B91EFE6DB3007B615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ensemble Carpool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.godha.Ensemble-Carpool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE2B40BB1EFE6DB3007B615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ensemble CarpoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.godha.Ensemble-CarpoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ensemble Carpool.app/Ensemble Carpool";
+			};
+			name = Debug;
+		};
+		EE2B40BC1EFE6DB3007B615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ensemble CarpoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.godha.Ensemble-CarpoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ensemble Carpool.app/Ensemble Carpool";
+			};
+			name = Release;
+		};
+		EE2B40BE1EFE6DB3007B615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Ensemble CarpoolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.godha.Ensemble-CarpoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ensemble Carpool";
+			};
+			name = Debug;
+		};
+		EE2B40BF1EFE6DB3007B615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Ensemble CarpoolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.godha.Ensemble-CarpoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ensemble Carpool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE2B408A1EFE6DB3007B615E /* Build configuration list for PBXProject "Ensemble Carpool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2B40B51EFE6DB3007B615E /* Debug */,
+				EE2B40B61EFE6DB3007B615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2B40B71EFE6DB3007B615E /* Build configuration list for PBXNativeTarget "Ensemble Carpool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2B40B81EFE6DB3007B615E /* Debug */,
+				EE2B40B91EFE6DB3007B615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE2B40BA1EFE6DB3007B615E /* Build configuration list for PBXNativeTarget "Ensemble CarpoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2B40BB1EFE6DB3007B615E /* Debug */,
+				EE2B40BC1EFE6DB3007B615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE2B40BD1EFE6DB3007B615E /* Build configuration list for PBXNativeTarget "Ensemble CarpoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2B40BE1EFE6DB3007B615E /* Debug */,
+				EE2B40BF1EFE6DB3007B615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE2B40871EFE6DB3007B615E /* Project object */;
+}
